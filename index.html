@@ -57,6 +57,21 @@
                 </tr>
             </tbody>
         </table>
+        <nav class="text-center">
+            <ul class="pagination">
+                <li>
+                    <a href="#" @click="previous" aria-label="Previous">
+                        <span aria-hidden="true">&laquo;</span>
+                    </a>
+                </li>
+                <li><a @click="pagePagination($event, 1)" href="#">1</a></li>
+                <li>
+                    <a href="#" @click="next" aria-label="Next">
+                        <span aria-hidden="true">&raquo;</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
     </div>
 
 </div>
